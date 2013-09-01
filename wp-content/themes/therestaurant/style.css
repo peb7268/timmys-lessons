@@ -7,6 +7,8 @@ AUTHOR: <a href="http://themeforest.net/user/redfactory/portfolio/?ref=redfactor
 AUTHOR URI: http://themeforest.net/user/redfactory/portfolio/?ref=redfactory
 */
 @import "reset.css";
+@import "styles.css";
+
 body {
 	background: #fffff;
 	background: url(http://www.wingfactory.com/wp-content/themes/therestaurant/images/pattern8.png);
