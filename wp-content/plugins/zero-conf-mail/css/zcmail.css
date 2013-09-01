@@ -1,0 +1,29 @@
+#zcmail form {
+	/* wth does kubrick do? */
+	text-align:				left;
+	/* Themes that are extremely wide will look odd in IE */
+	max-width:				500px;
+}
+#zcmail .zcmail_error,
+#zcmail .zcmail_success,
+#zcmail textarea,
+#zcmail .zcmail_text,
+#zcmail input.zcmail_name,
+#zcmail input.zcmail_mail,
+#zcmail input.zcmail_subject {
+	margin:					2px 0;
+	padding:				2px 4px;
+	border:					1px solid #0d0d0d;
+	border-radius:          4px;
+	-moz-border-radius:     4px;
+	-webkit-border-radius:  4px;
+}
+.zcmail_error {
+	background-color:		#fcc;
+}
+.zcmail_success {
+	background-color:		#cfc;
+}
+#zcmail textarea {
+	display:				block;
+}

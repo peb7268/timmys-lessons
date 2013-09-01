@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zero Conf Mail in italiano\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/zero-conf-mail\n"
+"POT-Creation-Date: 2010-01-16 21:13+0100\n"
+"PO-Revision-Date: 2010-05-02 17:45+0100\n"
+"Last-Translator: Gianni Diurno (aka gidibao) <gidibao[at]gmail[dot]com>\n"
+"Language-Team: Gianni Diurno | http://gidibao.net/ <gidibao@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+
+#. #-#-#-#-#  zero-conf-mail.pot (Zero Conf Mail 0.5.0.2)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:7
+#: inc/admin.php:312
+msgid "Zero Conf Mail"
+msgstr "Zero Conf Mail"
+
+#: inc/admin.php:116
+msgid "Your new field"
+msgstr "Nuovo campo"
+
+#: inc/admin.php:125
+msgid "Your name"
+msgstr "Il tuo nome"
+
+#: inc/admin.php:131
+msgid "Your email"
+msgstr "La tua email"
+
+#: inc/admin.php:137
+msgid "Subject"
+msgstr "Oggetto"
+
+#: inc/admin.php:143
+msgid "Your message"
+msgstr "Il tuo messaggio"
+
+#: inc/admin.php:149
+msgid "Send message"
+msgstr "Invia il messaggio"
+
+#: inc/admin.php:166
+msgid "Please fill out all fields!"
+msgstr "Compila tutti i campi!"
+
+#: inc/admin.php:167
+msgid "Your message has been sent. Thank you!"
+msgstr "Il tuo messaggio é stato inviato. Grazie!"
+
+#: inc/admin.php:251
+msgid "Fields saved"
+msgstr "I campi sono stati salvati"
+
+#: inc/admin.php:278
+msgid "Settings saved"
+msgstr "Le impostazioni sono state salvate"
+
+#: inc/admin.php:283
+msgid "The default configuration was restored"
+msgstr "La configurazione predefinita é stata ripristinata"
+
+#: inc/admin.php:290
+msgid "Field added"
+msgstr "Il campo é stato aggiunto"
+
+#: inc/admin.php:299
+#, php-format
+msgid "Field with position %s deleted"
+msgstr "Il campo nella posizione %s é stato cancellato"
+
+#: inc/admin.php:302
+msgid "Can not delete this field"
+msgstr "Non é stato possibile cancellare questo campo"
+
+#: inc/admin.php:315
+msgid "I'm sure I am reinventing the wheel with this plugin. However, sometimes it's faster to simply write something yourself than it is to find something that does what you want. This plugin uses no Ajax, no bloated libraries. And it doesn't need to be configured at all."
+msgstr "Questo plugin non fa uso di Ajax, di particolari librerie, di file esterni e non necessita altresì di essere configurato."
+
+#: inc/admin.php:316
+msgid "Simply include it on any page or post by putting <tt>[zcmail]</tt> into the page content."
+msgstr "Utilizza lo shortcode <tt>[zcmail]</tt> per inserire il modulo nel contenuto di un articolo/pagina."
+
+#: inc/admin.php:318
+msgid "Your email form"
+msgstr "Il tuo modulo email"
+
+#: inc/admin.php:319
+msgid "This is a preview of your email form:"
+msgstr "Questa é un'anteprima del tuo modulo email:"
+
+#: inc/admin.php:325
+msgid "It looks like the configured email isn't valid, please check the advanced configuration!"
+msgstr "L'indirizzo email non é valido: effettua una verifica nelle impostazioni avanzate!"
+
+#: inc/admin.php:328
+#, php-format
+msgid "The mails are being sent to <strong>%s</strong>."
+msgstr "Le email sono state inviate a <strong>%s</strong>."
+
+#: inc/admin.php:331
+msgid "Customize the form"
+msgstr "Personalizza il modulo"
+
+#: inc/admin.php:342
+msgid "Do you want to see the customization options?"
+msgstr "Desideri vedere le opzioni di configurazione?"
+
+#: inc/admin.php:355
+msgid "Include the recommended CSS styles?"
+msgstr "Includere lo stile CSS predefinito (raccomandato)?"
+
+#: inc/admin.php:366
+msgid "Who receives the emails"
+msgstr "Il destinatario delle email"
+
+#: inc/admin.php:377
+msgid "Message when the form wasn't completed"
+msgstr "Messaggio di notifica errore compilazione campi"
+
+#: inc/admin.php:388
+msgid "Message when the mail was sent"
+msgstr "Messaggio per l'avvenuto invio della email"
+
+#: inc/admin.php:399
+msgid "Flood protection"
+msgstr "Protezione flood"
+
+#: inc/admin.php:403
+#, php-format
+msgid "Allow a maximum of %s emails being sent per IP per %s hours."
+msgstr "Permetti che sia spedito un numero massimo di %s email per IP ogni %s ora/e."
+
+#: inc/admin.php:414
+msgid "Where to put the home link"
+msgstr "Dove inserire il link alla homepage"
+
+#: inc/admin.php:426
+#: inc/admin.php:451
+#: inc/admin.php:454
+msgid "Save Changes"
+msgstr "Salva le modifiche"
+
+#: inc/admin.php:431
+msgid "Input fields configuration"
+msgstr "Configurazione campi in entrata"
+
+#: inc/admin.php:446
+msgid "Add a pinch of JavaScript?"
+msgstr "Aggiungere un pizzico di JavaScript?"
+
+#: inc/admin.php:448
+msgid "I recommend that you enable this. It will just add a few characters to the HTML source of the contact form. It doesn't depend on any external JavaScript."
+msgstr "Mi permetto di suggerirne l'attivazione. Verranno aggiunti solo alcuni caratteri al sorgente HTML del modulo di contatto. Non ha relazione alcuna con ogni altro JavaScript esterno."
+
+#: inc/admin.php:458
+msgid "Add a custom field"
+msgstr "Aggiungi un campo personalizzato"
+
+#: inc/admin.php:467
+msgid "Add Field"
+msgstr "Aggiungi il campo"
+
+#: inc/admin.php:471
+msgid "Delete a field"
+msgstr "Elimina un campo"
+
+#: inc/admin.php:473
+msgid "Please enter the position of the field to delete."
+msgstr "Inserisci la posizione del campo da cancellare."
+
+#: inc/admin.php:479
+#: inc/admin.php:540
+msgid "Position"
+msgstr "Posizione"
+
+#: inc/admin.php:482
+msgid "Delete Field"
+msgstr "Elimina il campo"
+
+#: inc/admin.php:487
+#: inc/admin.php:493
+msgid "Reset the plugin"
+msgstr "Ripristina il plugin"
+
+#: inc/admin.php:488
+msgid "<strong>Careful!</strong> This will delete any customizations you have made and will also translate the form into your language if possible."
+msgstr "<strong>Attenzione!</strong> Questa operazione rimuoverà tutte le personalizzazioni nonché tradurrà se possibile nella tua lingua il modulo."
+
+#: inc/admin.php:536
+msgid "Label"
+msgstr "Etichetta"
+
+#: inc/admin.php:538
+msgid "Type"
+msgstr "Tipo"
+
+#: inc/admin.php:539
+msgid "Mandatory (y/n)?"
+msgstr "Richiesto (sì/no)?"
+
+#: inc/nkuttler.php:25
+msgid "Do you like this plugin?"
+msgstr "Ti piace questo plugin?"
+
+#: inc/nkuttler.php:33
+#, php-format
+msgid "<a href=\"%s\">Rate</a> it"
+msgstr "<a href=\"%s\">Valutazione</a>"
+
+#: inc/nkuttler.php:36
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">visita</a> la sua homepage"
+
+#: inc/nkuttler.php:39
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">abbonati</a> al feed RSS"
+
+#: inc/nkuttler.php:42
+#, php-format
+msgid "<a href=\"%s\">Donate</a>!"
+msgstr "<a href=\"%s\">Donazione</a>!"
+
+#: inc/nkuttler.php:45
+msgid "About the author"
+msgstr "Info autore"
+
+#: inc/nkuttler.php:48
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "il mio <a href=\"%s\">blog</a>"
+
+#: inc/nkuttler.php:51
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr "abbonati al feed <a href=\"%s\">RSS</a> oppure via <a href=\"%s\">email</a>"
+
+#: inc/nkuttler.php:55
+msgid "My other plugins"
+msgstr "I miei plugin"
+
+#: inc/nkuttler.php:56
+msgid "<a href=\"http://www.nkuttler.de\">Translated by Nicolas</a>"
+msgstr "Traduzione a cura di <a href=\"http://gidibao.net\">Gianni Diurno</a>"
+
+#: inc/page.php:14
+msgid "Temporarily closed"
+msgstr "Chiusura provvisoria"
+
+#: inc/page.php:55
+msgid "Sent with Zero Conf Mail: "
+msgstr "Inviato con Zero Conf Mail: "
+
+#. #-#-#-#-#  zero-conf-mail.pot (Zero Conf Mail 0.5.0.2)  #-#-#-#-#
+#. Plugin URI of an extension
+#: inc/page.php:56
+msgid "http://www.nkuttler.de/wordpress/zero-conf-mail/"
+msgstr "http://www.nkuttler.de/wordpress/zero-conf-mail/"
+
+#: inc/page.php:57
+msgid "Blog: "
+msgstr "Blog: "
+
+#: inc/page.php:59
+msgid "Page: "
+msgstr "Pagina:"
+
+#: inc/page.php:61
+msgid "From: "
+msgstr "Da:"
+
+#: inc/page.php:63
+msgid "IP  : "
+msgstr "IP  : "
+
+#: inc/page.php:77
+msgid "No message could be sent. This means that this server wasn't configured to send mail. Please contact the site administrator."
+msgstr "Il messaggio non é stato inviato. Contatta l'amministratore del sito."
+
+#: inc/page.php:478
+msgid "http://www.nkuttler.de/wordpress/zero-conf-mail"
+msgstr "http://www.nkuttler.de/wordpress/zero-conf-mail"
+
+#: inc/page.php:480
+#, php-format
+msgid "<a href=\"%s\">Mail form</a> powered by <a href=\"%s\">Zero Conf Mail</a>"
+msgstr "<a href=\"%s\">Mail form</a> powered by <a href=\"%s\">Zero Conf Mail</a>"
+
+#: zero-conf-mail.php:93
+msgid "Zero Conf Mail Widget"
+msgstr "Widget Zero Conf Mail"
+
+#. Description of an extension
+msgid "Mail form that doesn't need any configuration."
+msgstr "Un modulo di contatto che non richiede alcuna configurazione."
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr "Nicolas Kuttler"
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr "http://www.nkuttler.de/"
+
+#. Select box
+msgid "email"
+msgstr "email"
+
+#. Select box
+msgid "Enabled"
+msgstr "Attivato"
+
+#. Select box
+msgid "Disabled"
+msgstr "Disattivato"
+
+#. Select box
+msgid "In the footer"
+msgstr "nel footer"
+
+#. Select box
+msgid "Below the form"
+msgstr "sotto il modulo"
+
+#. Select box
+msgid "Nowhere"
+msgstr "da nessuna parte"
+
+#. Select box
+msgid "textarea"
+msgstr "area testo"
+
+#. Select box
+msgid "text"
+msgstr "testo"
+
+#. Select box
+msgid "submit"
+msgstr "invio"
+
+#~ msgid "Configuration"
+#~ msgstr "Configurazione"
+
+#~ msgid "CSS suggestion"
+#~ msgstr "Info CSS"
+
+#~ msgid ""
+#~ "Here is a possible CSS configuration. Add it to your theme's <tt>style."
+#~ "css</tt> if you like"
+#~ msgstr ""
+#~ "Ecco una configurazione CSS di esempio. Aggiungila al file <tt>style.css</"
+#~ "tt> del tuo tema"

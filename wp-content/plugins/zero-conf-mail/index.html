@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Readme</title>
+</head>
+<style type="text/css">
+<!--
+body {
+font-family: Lucida Grande, Verdana, sans-serif;
+}
+
+code {
+font-size: 1.3em
+}
+
+div.success {
+background: #0f0;
+width: 50%;
+margin: 0 auto;
+padding: 1px 10px;
+border: 3px solid #0d0;
+}
+
+div.error {
+padding: 1px 10px;
+margin: 30px auto;
+}
+
+div.error p {
+font-weight: bold;
+}
+
+div.error ul {
+list-style: square;
+}
+
+div.fatal {
+background: #faa;
+border: 3px solid #d00;
+}
+
+div.warning {
+background: #f60;
+border: 3px solid #e40;
+}
+
+div.note {
+background: #5cf;
+border: 3px solid #3ad;
+}
+
+-->
+</style>
+<body>
+<div class='note error'><p>Notes:</p>
+<ul class='note error'>
+<li>No <code>== Upgrade Notice ==</code> section was found</li>
+</ul>
+</div>	<hr />
+
+	<h1>Zero Conf Mail</h1>
+
+	<p><em>Simple mail contact form, the way I like it. No ajax, no bloat. No configuration necessary, but possible.</em></p>
+
+	<hr />
+
+	<p>
+		<strong>Contributors:</strong> <a href="http://www.nkuttler.de/">nkuttler</a>, <a href="http://www.nicolaskuttler.de">Nicolas Kuttler (de)</a><br />
+	<strong>Donate link:</strong> <a href="http://www.nkuttler.de/wordpress/donations/">http://www.nkuttler.de/wordpress/donations/</a> <br />
+	<strong>Tags:</strong> <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">admin</a>, <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">plugin</a>, <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">mail</a>, <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">mail form</a>, <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">contact</a>, <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">contact form</a>, <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">zero configuration</a>, <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">simple</a>, <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">easy</a>, <br />
+	<strong>Requires at least:</strong> 2.7<br />
+	<strong>Tested up to:</strong> 3.0<br />
+	<strong>Stable tag:</strong> 0.6.1.1	</p>
+
+	<hr />
+
+		<h3>Description</h3>
+	<p>It took me quite some time to check a few existing contact forms and I didn't like any of them. No, I don't want you to load jquery on every page of my blog. I want it localized, pretty please. Oh, and I want this JavaScript onfocus/onblur effect I <a href="http://www.nkuttler.de/2008/09/20/html-forms-and-onclickonfocus/">wrote about</a>. And why do I have to do any configuration at all anyway?</p>
+
+<p>Since 0.6.0 the plugin has a built-in spam protection that won't bother your human visitors but will most likely catch all spambots.</p>
+
+<h4>Usage</h4>
+
+<p>The easiest way to use this plugin is to use the shortcode [zcmail]. There's also a widget that you can drag into one of your sidebars.</p>
+
+<h4>Using the mail form in your theme</h4>
+
+<p>You can call the function <code>zcmail_shortcode()</code> from your theme to get the same output as from the shortcode. Example:</p>
+
+<pre><code>if ( function_exists( 'zcmail_shortcode' ) ) {
+    echo zcmail_shortcode()
+}
+</code></pre>
+
+<h4>Support</h4>
+
+<p>Visit the <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">plugin's home page</a> to leave comments, ask questions, etc.</p>
+
+<h4>Other plugins I wrote</h4>
+
+<ul>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/wordpress-lorem-ipsum-generator-plugin/">Better Lorem Ipsum Generator</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/custom-avatars-for-comments/">Custom Avatars For Comments</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/a-better-tag-cloud-widget/">Better Tag Cloud</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/theme-switch-and-preview-plugin/">Theme Switch</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/wpmu-switch-backend/">MU fast backend switch</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/record-movies-of-visitors/">Visitor Movies for WordPress</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">Zero Conf Mail</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/nkmovecomments/">Move WordPress Comments</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/delete-pending-comments">Delete Pending Comments</a></li>
+<li><a href="http://www.nkuttler.de/wordpress-plugin/nksnow/">Snow and more</a></li>
+</ul>	<hr />
+		<h3>Installation</h3>
+	<p>Unzip, upload to your plugin directory, enable the plugin. Include it on a page or post by adding the shortcode [zcmail] somewhere on it.</p>	<hr />
+		<h3>Frequently Asked Questions</h3>
+	<p>Q: What about spam?<br />
+A: Webspammers don't gain anything by spamming you through the contact form, as their links don't appear on your site. A spammer is wasting his resources by sending spammy backlinks through the form and should stop soon. Normal spam should be handled by your email provider.<br />
+<strong>Update</strong>: Since 0.6.0 there is a simple but hopefully very effective trap for automated spambots.</p>
+
+<p>Q: Anybody can send me a gazillion mails through your plugin!?<br />
+A: That's true. That's why the plugin comes with a flood protection. Sender IPs are logged and an attacker would need a considerable amount of resources to bypass that protection. You can make the flood protection rules more severe if you want to.</p>
+
+<p>Q: Who receives the mails?<br />
+A: The admin who activated the plugin is a registered user of your blog and has an email address associated with his account. That's where the plugin sends the mails to. This can be changed on the plugin options page.</p>	<hr />
+		<h3>Screenshots</h3>
+	<ol>
+<li>The contact form with default CSS styles. See the <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/">demo page</a> for the minimal onfocus JavaScript effect.</li>
+</ol>	<hr />
+		<h3>Changelog</h3>
+	<h4>0.6.1.1 ( 2010-12-14 )</h4>
+
+<ul>
+<li>Add bulgrian translation, update docs.</li>
+</ul>
+
+<h4>0.6.1 ( 2010-05-28 )</h4>
+
+<ul>
+<li>Make jump to form anchor an option, and disable it by default. Thanks Marcelo!</li>
+<li>Update docs</li>
+</ul>
+
+<h4>0.6.0 ( 2010-05-06 )</h4>
+
+<ul>
+<li>Add a simple protection against spambots.</li>
+</ul>
+
+<h4>0.5.1.2 ( 2010-05-02 )</h4>
+
+<ul>
+<li>Add a fieldset to the form to produce valid html.</li>
+<li>Update italian translation.</li>
+</ul>
+
+<h4>0.5.1.1 ( 2010-05-01 )</h4>
+
+<ul>
+<li>Add anchor to action URI to jump to the form automtically.</li>
+</ul>
+
+<h4>0.5.0.3 ( 2010-02-10 )</h4>
+
+<ul>
+<li>Add russian translation, thanks <a href="http://www.shoptec.ru/?p=2355">Carik</a>!</li>
+<li>Add dutch translation, thanks Matthijs!</li>
+</ul>
+
+<h4>0.5.0.2</h4>
+
+<ul>
+<li>Install problem hotfix.</li>
+</ul>
+
+<h4>0.5.0.1</h4>
+
+<ul>
+<li>Doc fixes.</li>
+<li>Update italian translation.</li>
+</ul>
+
+<h4>0.5.0</h4>
+
+<ul>
+<li>Add a widget as requested by <a href="http://www.dworniak.pl/">Paul</a> and others.</li>
+<li>Add page and sender info to the mail footer.</li>
+</ul>
+
+<h4>0.4.2</h4>
+
+<ul>
+<li>Use a WordPress function to send mails. This should fix potential problems with inconsistent From: addresses. Thanks a lot to <a href="http://mirageglobe.com/">MG Lim</a> for <a href="http://www.nkuttler.de/wordpress-plugin/zero-conf-mail/#comment-3364">reporting</a> this.</li>
+</ul>
+
+<h4>0.4.1.2</h4>
+
+<ul>
+<li>Use correct version number.</li>
+</ul>
+
+<h4>0.4.1.1</h4>
+
+<ul>
+<li>Fix activation bug, thanks to <a href="http://trianglehomesuccess.com/">Robert Reilly</a> for reporting.</li>
+</ul>
+
+<h4>0.4.1</h4>
+
+<ul>
+<li>Load translations on plugin activation, needed for properly translated field labels.</li>
+<li>Fix annoying bug, thanks to simon for the detailed report.</li>
+<li>Bugfixes, optimizations, documention updates.</li>
+<li>Add delete field option.</li>
+</ul>
+
+<h4>0.4.0</h4>
+
+<ul>
+<li>Add mail flood protection.</li>
+<li>Add turkish translation, thanks to Tayfun Duran.</li>
+</ul>
+
+<h4>0.3.3</h4>
+
+<ul>
+<li>Add icon by <a href="http://www.famfamfam.com">famfamfam</a> to the <a href="http://planetozh.com/blog/my-projects/wordpress-admin-menu-drop-down-css/">Admin Drop Down Menu</a>.</li>
+<li>Modify directory structure.</li>
+<li>Fix PHP5ism, thanks to Tico. Now tested on PHP4 as well.</li>
+</ul>
+
+<h4>0.3.2</h4>
+
+<ul>
+<li>Add hebrew translation, thanks to <a href="http://wordpress.freeall.org/?p=86">Asaf Chetkoff</a>!</li>
+<li>Include CSS only on pages that contain the shortcode!</li>
+</ul>
+
+<h4>0.3.1</h4>
+
+<ul>
+<li>This plugin should work by default on as many blogs as possible. Therefore I added a default CSS file that will be included on the form page if you upgrade to this version. Your CSS configuration will be preserved across future upgrades.</li>
+</ul>
+
+<h4>0.3.0</h4>
+
+<ul>
+<li>Simplified and clarified the interface. After all it's called zero conf for a reason.</li>
+<li>Add italian translation, thanks to <a href="http://gidibao.net/">Gianni</a>!</li>
+<li>Fix shortcode position on pages</li>
+</ul>
+
+<h4>0.1.11</h4>
+
+<ul>
+<li>Clean up code, add documentation</li>
+<li>Admin CSS</li>
+<li>Update german translation</li>
+</ul>
+
+<h4>0.1.9</h4>
+
+<ul>
+<li>Don't use trunk as stable, revert to earlier release and add bugfixes.</li>
+</ul>
+
+<h4>0.1.8</h4>
+
+<ul>
+<li>Fix short PHP open tags, thanks to <a href="http://speedforce.org/">Kelson</a> for finding them!</li>
+</ul>
+
+<h4>0.1.7</h4>
+
+<ul>
+<li>Add email check for receiver to catch misconfigurations.</li>
+</ul>
+
+<h4>0.1.6</h4>
+
+<ul>
+<li>Include sender's name in mail and fix I18N, thanks to <a href="http://www.busseedv.de">Busse EDV</a> for reporting.</li>
+<li>Success/failure messages are configurable.</li>
+<li>Produce valid HTML</li>
+</ul>
+
+<h4>0.1.5</h4>
+
+<ul>
+<li>Fix upgrade data loss bug.</li>
+</ul>
+
+<h4>0.1.4</h4>
+
+<ul>
+<li>Hopefully fix PHP5ism in array sorting.</li>
+</ul>
+
+<h4>0.1.3</h4>
+
+<ul>
+<li>I've seen reports of upgrade troubles. Put the reset button where it can always be accessed. This will be hidden when things get more stable.</li>
+<li>Split main file and only include the things that are needed.</li>
+</ul>
+
+<h4>0.1.1</h4>
+
+<ul>
+<li>Allow custom fields</li>
+<li>Restructure the code, document it</li>
+<li>New, flexible data structure</li>
+<li>Enable custom fields as requested</li>
+<li>I18N, german translation</li>
+<li>Check if sender's mail is an email address</li>
+<li>Check admin page &amp; form permissions</li>
+<li>Add configurable link to plugin website</li>
+</ul>
+
+<h4>0.0.3</h4>
+
+<ul>
+<li>Add success and failure messages</li>
+<li>All fields are mandatory.</li>
+</ul>
+
+<h4>0.0.2</h4>
+
+<ul>
+<li>i18n mostly done</li>
+<li>Added german translation</li>
+</ul>
+
+<h4>0.0.1</h4>
+
+<ul>
+<li>Initial release</li>
+</ul>	<hr />
+	
+	<h3>Upgrade Notice</h3>
+	<dl>
+
+Warning: Invalid argument supplied for foreach() in /home/nicolas/local/lib/validator.php on line 112
+
+Call Stack:
+    0.0029     135400   1. {main}() /home/nicolas/local/scripts/readme2indexhtml.php:0
+    0.5569   37159288   2. validate_readme() /home/nicolas/local/scripts/readme2indexhtml.php:48
+
+	</dl>
+
+	

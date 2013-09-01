@@ -1,0 +1,335 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.2.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/zero-conf-mail\n"
+"POT-Creation-Date: 2009-12-27 11:35+0100\n"
+"PO-Revision-Date: 2010-01-31 22:08+0200\n"
+"Last-Translator: Carik <ild1965@mail.ru>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. #-#-#-#-#  zero-conf-mail.pot (Zero Conf Mail 0.5.0)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:7
+#: inc/admin.php:312
+msgid "Zero Conf Mail"
+msgstr "Настройка Zero Conf Mail"
+
+#: inc/admin.php:116
+msgid "Your new field"
+msgstr "Ваше новое поле"
+
+#: inc/admin.php:125
+msgid "Your name"
+msgstr "Ваше имя"
+
+#: inc/admin.php:131
+msgid "Your email"
+msgstr "Ваш E-Mail"
+
+#: inc/admin.php:137
+msgid "Subject"
+msgstr "Тема сообщения"
+
+#: inc/admin.php:143
+msgid "Your message"
+msgstr "Ваше сообщение"
+
+#: inc/admin.php:149
+msgid "Send message"
+msgstr "Отправить сообщение"
+
+#: inc/admin.php:166
+msgid "Please fill out all fields!"
+msgstr "Пожалуйста, заполните все поля!"
+
+#: inc/admin.php:167
+msgid "Your message has been sent. Thank you!"
+msgstr "Ваше сообщение отправлено. Спасибо!"
+
+#: inc/admin.php:251
+msgid "Fields saved"
+msgstr "Сохраненные поля"
+
+#: inc/admin.php:278
+msgid "Settings saved"
+msgstr "Сохранить настройки"
+
+#: inc/admin.php:283
+msgid "The default configuration was restored"
+msgstr "Была восстановлена конфигурация по умолчанию"
+
+#: inc/admin.php:290
+msgid "Field added"
+msgstr "Добавлено поле"
+
+#: inc/admin.php:299
+#, php-format
+msgid "Field with position %s deleted"
+msgstr "Поле позиции %s удалено"
+
+#: inc/admin.php:302
+msgid "Can not delete this field"
+msgstr "Не удается удалить это поле"
+
+#: inc/admin.php:315
+msgid "I'm sure I am reinventing the wheel with this plugin. However, sometimes it's faster to simply write something yourself than it is to find something that does what you want. This plugin uses no Ajax, no bloated libraries. And it doesn't need to be configured at all."
+msgstr "Простой плагин для создания формы отправки писем в постах, на страницах. Этот плагин не использует Ajax, нет раздутых библиотеки. Все очень просто и красиво. Плагин переведен на русский язык Алексеем Давлад ( Carik )."
+
+#: inc/admin.php:316
+msgid "Simply include it on any page or post by putting <tt>[zcmail]</tt> into the page content."
+msgstr "Просто включите его на любой странице, или посте, поставив шорткод <tt>[zcmail]</tt> в  поле редактора ( режим HTML )"
+
+#: inc/admin.php:318
+msgid "Your email form"
+msgstr "Ваша E-Mail форма"
+
+#: inc/admin.php:319
+msgid "This is a preview of your email form:"
+msgstr "Ниже представлен внешний вид  E-Mail формы:"
+
+#: inc/admin.php:325
+msgid "It looks like the configured email isn't valid, please check the advanced configuration!"
+msgstr "Похоже, настроенный почтовый адрес недействителен, проверьте еще раз настройку!"
+
+#: inc/admin.php:328
+#, php-format
+msgid "The mails are being sent to <strong>%s</strong>."
+msgstr "Письма направляются в <strong>%s</strong>."
+
+#: inc/admin.php:331
+msgid "Customize the form"
+msgstr "Настройка вида"
+
+#: inc/admin.php:342
+msgid "Do you want to see the customization options?"
+msgstr "Вы хотите видеть параметры настройки?"
+
+#: inc/admin.php:355
+msgid "Include the recommended CSS styles?"
+msgstr "Включить рекомендованные стили CSS?"
+
+#: inc/admin.php:366
+msgid "Who receives the emails"
+msgstr "Получатель электронной почты"
+
+#: inc/admin.php:377
+msgid "Message when the form wasn't completed"
+msgstr "Сообщение, когда письмо не отправленно"
+
+#: inc/admin.php:388
+msgid "Message when the mail was sent"
+msgstr "Сообщение при отправке почты"
+
+#: inc/admin.php:399
+msgid "Flood protection"
+msgstr "Защита от спама"
+
+#: inc/admin.php:403
+#, php-format
+msgid "Allow a maximum of %s emails being sent per IP per %s hours."
+msgstr "Разрешить максимум %s писем направлять на IP %s за час."
+
+#: inc/admin.php:414
+msgid "Where to put the home link"
+msgstr "Где поставить ссылку на страницу плагина"
+
+#: inc/admin.php:426
+#: inc/admin.php:451
+#: inc/admin.php:454
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: inc/admin.php:431
+msgid "Input fields configuration"
+msgstr "Поля конфигурации"
+
+#: inc/admin.php:446
+msgid "Add a pinch of JavaScript?"
+msgstr "Добавить JavaScript?"
+
+#: inc/admin.php:448
+msgid "I recommend that you enable this. It will just add a few characters to the HTML source of the contact form. It doesn't depend on any external JavaScript."
+msgstr "Я рекомендую вам включить эту опцию. Она будет просто добавлять несколько символов в HTML источник в контактной форме. Она не зависит ни от каких внешних JavaScript."
+
+#: inc/admin.php:458
+msgid "Add a custom field"
+msgstr "Добавить произвольное поле"
+
+#: inc/admin.php:467
+msgid "Add Field"
+msgstr "Добавить поле"
+
+#: inc/admin.php:471
+msgid "Delete a field"
+msgstr "Удалить поле"
+
+#: inc/admin.php:473
+msgid "Please enter the position of the field to delete."
+msgstr "Пожалуйста, введите параметры поля для удаления."
+
+#: inc/admin.php:479
+#: inc/admin.php:540
+msgid "Position"
+msgstr "Позиция"
+
+#: inc/admin.php:482
+msgid "Delete Field"
+msgstr "Удалить поле"
+
+#: inc/admin.php:487
+#: inc/admin.php:493
+msgid "Reset the plugin"
+msgstr "Сбросить настройки"
+
+#: inc/admin.php:488
+msgid "<strong>Careful!</strong> This will delete any customizations you have made and will also translate the form into your language if possible."
+msgstr "<strong>Осторожно!</strong> Это удалит все настройки, сделанные и при правке полей формы на свой язык."
+
+#: inc/admin.php:536
+msgid "Label"
+msgstr "Ярлык"
+
+#: inc/admin.php:538
+msgid "Type"
+msgstr "Вид"
+
+#: inc/admin.php:539
+msgid "Mandatory (y/n)?"
+msgstr "Обязательно (y/n)?"
+
+#: inc/nkuttler.php:24
+msgid "Do you like this plugin?"
+msgstr "Нравится ли вам этот плагин?"
+
+#: inc/nkuttler.php:32
+#, php-format
+msgid "<a href=\"%s\">Vote</a> for it"
+msgstr "<a href=\"%s\">Голосовать</a> за него"
+
+#: inc/nkuttler.php:35
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Перейти</a> на главную страницу"
+
+#: inc/nkuttler.php:38
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Подписаться</a> на рассылку"
+
+#: inc/nkuttler.php:41
+msgid "About the author"
+msgstr "Об авторе"
+
+#: inc/nkuttler.php:44
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Мой <a href=\"%s\">блог</a>"
+
+#: inc/nkuttler.php:47
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr "Подписаться на <a href=\"%s\">RSS feed</a> (через <a href=\"%s\">E-Mail</a>)"
+
+#: inc/nkuttler.php:51
+msgid "My other plugins"
+msgstr "Другие плагины"
+
+#: inc/page.php:14
+msgid "Temporarily closed"
+msgstr "Временно закрыт"
+
+#: inc/page.php:55
+msgid "Sent with Zero Conf Mail: "
+msgstr "Переданные с помощью Zero Conf Mail - "
+
+#. #-#-#-#-#  zero-conf-mail.pot (Zero Conf Mail 0.5.0)  #-#-#-#-#
+#. Plugin URI of an extension
+#: inc/page.php:56
+msgid "http://www.nkuttler.de/wordpress/zero-conf-mail/"
+msgstr "http://www.nkuttler.de/wordpress/zero-conf-mail/"
+
+#: inc/page.php:57
+msgid "Blog: "
+msgstr "Блог: "
+
+#: inc/page.php:59
+msgid "Page: "
+msgstr "Страница: "
+
+#: inc/page.php:61
+msgid "From: "
+msgstr "От: "
+
+#: inc/page.php:63
+msgid "IP  : "
+msgstr "IP   : "
+
+#: inc/page.php:77
+msgid "No message could be sent. This means that this server wasn't configured to send mail. Please contact the site administrator."
+msgstr "Сообщение не может быть отправлено. Это означает, что данный сервер не был настроен для отправки почты. Пожалуйста, свяжитесь с администратором сайта."
+
+#: inc/page.php:478
+msgid "http://www.nkuttler.de/wordpress/zero-conf-mail"
+msgstr "http://www.nicolaskuttler.de/wordpress/zero-conf-mail"
+
+#: inc/page.php:480
+#, php-format
+msgid "<a href=\"%s\">Mail form</a> powered by <a href=\"%s\">Zero Conf Mail</a>"
+msgstr "<a href=\"%s\">E-Mail форма</a> от <a href=\"%s\">Zero Conf Mail</a>"
+
+#: zero-conf-mail.php:86
+msgid "Zero Conf Mail Widget"
+msgstr "Виджет Zero Conf Mail"
+
+#. Description of an extension
+msgid "Mail form that doesn't need any configuration."
+msgstr "Почтовая форма, которая не нуждается в долгой настройке"
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr "http://www.nicolaskuttler.de/"
+
+#. Select box
+msgid "email"
+msgstr "E-Mail"
+
+#. Select box
+msgid "Enabled"
+msgstr "Включено"
+
+#. Select box
+msgid "Disabled"
+msgstr "Выключено"
+
+#. Select box
+msgid "In the footer"
+msgstr "В нижней части"
+
+#. Select box
+msgid "Below the form"
+msgstr "Ниже формы"
+
+#. Select box
+msgid "Nowhere"
+msgstr "Нигде"
+
+#. Select box
+msgid "textarea"
+msgstr "Текстовое поле"
+
+#. Select box
+msgid "text"
+msgstr "Сообщение"
+
+#. Select box
+msgid "submit"
+msgstr "Отправить"
+

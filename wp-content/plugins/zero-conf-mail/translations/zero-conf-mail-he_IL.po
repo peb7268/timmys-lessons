@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zero Conf Mail 0.3.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/zero-conf-mail\n"
+"POT-Creation-Date: 2009-11-02 14:56+0100\n"
+"PO-Revision-Date: 2009-11-02 16:42+0200\n"
+"Last-Translator: Asaf Chertkoff <asaf@freeallweb.org>\n"
+"Language-Team: FreeAllWeb GUILD <support@freeallweb.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: ISRAEL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. #-#-#-#-#  zero-conf-mail.pot (Zero Conf Mail 0.4.0.1)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:7
+#: inc/admin.php:309
+msgid "Zero Conf Mail"
+msgstr "Zero Conf Mail"
+
+#: inc/admin.php:114
+msgid "Your new field"
+msgstr "השדה החדש שלך"
+
+#: inc/admin.php:123
+msgid "Your name"
+msgstr "שמך"
+
+#: inc/admin.php:129
+msgid "Your email"
+msgstr "כתובת הדוא\"ל שלך"
+
+#: inc/admin.php:135
+msgid "Subject"
+msgstr "נושא"
+
+#: inc/admin.php:141
+msgid "Your message"
+msgstr "ההודעה שלך"
+
+#: inc/admin.php:147
+msgid "Send message"
+msgstr "שלח הודעה"
+
+#: inc/admin.php:164
+msgid "Please fill out all fields!"
+msgstr "בבקשה מלא את כל שדות הטופס!"
+
+#: inc/admin.php:165
+msgid "Your message has been sent. Thank you!"
+msgstr "ההודעה שלך נשלחה. תודה רבה!"
+
+#: inc/admin.php:249
+msgid "Fields saved"
+msgstr "השדות נשמרו"
+
+#: inc/admin.php:276
+msgid "Settings saved"
+msgstr "ההגדרות נשמרו"
+
+#: inc/admin.php:281
+msgid "The default configuration was restored"
+msgstr "הגדרות התצורה המקוריות שוחזרו"
+
+#: inc/admin.php:288
+msgid "Field added"
+msgstr "שדה התווסף"
+
+#: inc/admin.php:297
+#, php-format
+msgid "Field with position %s deleted"
+msgstr "שדות בעלי מיקום s% ימחקו"
+
+#: inc/admin.php:300
+msgid "Can not delete this field"
+msgstr "אין אפשרות למחוק שדה זה"
+
+#: inc/admin.php:312
+msgid "I'm sure I am reinventing the wheel with this plugin. However, sometimes it's faster to simply write something yourself than it is to find something that does what you want. This plugin uses no Ajax, no bloated libraries. And it doesn't need to be configured at all."
+msgstr "אני בטוח שאני ממציא כאן את הגלגל עם התוסף הזה. עם זאת, לעיתים יותר מהר פשוט לכתוב משהו בעצמך מאשר למצוא בדיוק את מה שאתה מחפש בתוך מה שקיים. לתוסף זה אין Ajax, אין ספריות מנופחות, אין קבצים חיצוניים והוא לא צריך הגדרות תצורה בכלל."
+
+#: inc/admin.php:313
+msgid "Simply include it on any page or post by putting <tt>[zcmail]</tt> into the page content."
+msgstr "פשוט כלול את הטופס בכל דף או רשומה על ידי הטמעת הקוד <tt>[zcmail]</tt> בתוך תוכן הדף"
+
+#: inc/admin.php:315
+msgid "Your email form"
+msgstr "טופס הדואר האלקטרוני שלך"
+
+#: inc/admin.php:316
+msgid "This is a preview of your email form:"
+msgstr "זו היא תצוגה מקדימה של טופס הדואר האלקטרוני שלך:"
+
+#: inc/admin.php:322
+msgid "It looks like the configured email isn't valid, please check the advanced configuration!"
+msgstr "זה נראה כאילו כתובת הדוא\"ל המוגדרת אינה תקפה, אנא בדוק את ההגדרות המתקדמות!"
+
+#: inc/admin.php:325
+#, php-format
+msgid "The mails are being sent to <strong>%s</strong>."
+msgstr "הודעות הדואר האלקטרוני ישלחו לכתובת <strong>%s</strong>."
+
+#: inc/admin.php:328
+msgid "Customize the form"
+msgstr "התאם את הטופס לצרכייך"
+
+#: inc/admin.php:339
+msgid "Do you want to see the customization options?"
+msgstr "האם אתה רוצה לראות את אפשרויות התאמת הטופס ואת הצעת ה-CSS?"
+
+#: inc/admin.php:352
+msgid "Include the recommended CSS styles?"
+msgstr "האם לכלול את סגנון העיצוב (CSS) המומלץ?"
+
+#: inc/admin.php:363
+msgid "Who receives the emails"
+msgstr "מי מקבל את הדוא\"ל"
+
+#: inc/admin.php:374
+msgid "Message when the form wasn't completed"
+msgstr "הודעה למשתמש כשהטופס לא התמלא כראוי"
+
+#: inc/admin.php:385
+msgid "Message when the mail was sent"
+msgstr "הודעה למשתמש כאשר ההודעה נשלחה"
+
+#: inc/admin.php:396
+msgid "Flood protection"
+msgstr "הגנה מהצפת דוא\"ל"
+
+#: inc/admin.php:400
+#, php-format
+msgid "Allow a maximum of %s emails being sent per IP per %s hours."
+msgstr "הרשה מקסימום של %s דוא\"ל להשלח לכל כתובת IP לכל %s שעות."
+
+#: inc/admin.php:411
+msgid "Where to put the home link"
+msgstr "איפה לשים את הקישור לדף הבית של התוסף"
+
+#: inc/admin.php:423
+#: inc/admin.php:448
+#: inc/admin.php:451
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: inc/admin.php:428
+msgid "Input fields configuration"
+msgstr "הגדרת שדות הנתונים"
+
+#: inc/admin.php:443
+msgid "Add a pinch of JavaScript?"
+msgstr "?להוסיף קמצוץ JavaScript"
+
+#: inc/admin.php:445
+msgid "I recommend that you enable this. It will just add a few characters to the HTML source of the contact form. It doesn't depend on any external JavaScript."
+msgstr "אני ממליץ לאפשר זאת. זה יוסיף רק כמה תווים לקוד מקור ה-HTML של הטופס. זה לא תלוי בשום קובץ JavaScript חיצוני."
+
+#: inc/admin.php:455
+msgid "Add a custom field"
+msgstr "הוסף שדה בהתאמה אישית"
+
+#: inc/admin.php:464
+msgid "Add Field"
+msgstr "הוסף שדה"
+
+#: inc/admin.php:468
+msgid "Delete a field"
+msgstr "מחק שדה"
+
+#: inc/admin.php:470
+msgid "Please enter the position of the field to delete."
+msgstr "בבקשה הכנס את המיקום של השדה שברצונך למחוק."
+
+#: inc/admin.php:476
+#: inc/admin.php:537
+msgid "Position"
+msgstr "מיקום"
+
+#: inc/admin.php:479
+msgid "Delete Field"
+msgstr "מחק שדה"
+
+#: inc/admin.php:484
+#: inc/admin.php:490
+msgid "Reset the plugin"
+msgstr "אפס את התוסף"
+
+#: inc/admin.php:485
+msgid "<strong>Careful!</strong> This will delete any customizations you have made and will also translate the form into your language if possible."
+msgstr "<strong>זהירות!</strong> אתה הולך למחוק כל התאמה שעשית ולתרגם את הטופס לעברית, במידה וקובץ התרגום ישנו."
+
+#: inc/admin.php:533
+msgid "Label"
+msgstr "תווית"
+
+#: inc/admin.php:535
+msgid "Type"
+msgstr "סוג"
+
+#: inc/admin.php:536
+msgid "Mandatory (y/n)?"
+msgstr "הכרחי (כן/לא)?"
+
+#: inc/nkuttler.php:24
+msgid "Do you like this plugin?"
+msgstr "האם אתה אוהב את התוסף הזה?"
+
+#: inc/nkuttler.php:32
+#, php-format
+msgid "<a href=\"%s\">Vote</a> for it"
+msgstr "<a href=\"%s\">הצבע</a> עבורו"
+
+#: inc/nkuttler.php:35
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">בקר</a> בדף הבית שלו"
+
+#: inc/nkuttler.php:38
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">הרשם</a> להזנת RSS"
+
+#: inc/nkuttler.php:41
+msgid "About the author"
+msgstr "על כותב התוסף"
+
+#: inc/nkuttler.php:44
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "<a href=\"%s\"> הבלוג </a>שלי"
+
+#: inc/nkuttler.php:47
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr "הרשם דרך <a href=\"%s\">RSS</a> או דרך <a href=\"%s\">דואר אלקטרוני</a>"
+
+#: inc/nkuttler.php:51
+msgid "My other plugins"
+msgstr "תוספים אחרים שלי"
+
+#: inc/page.php:14
+msgid "Temporarily closed"
+msgstr "סגור זמנית"
+
+#: inc/page.php:54
+msgid "Sent with Zero Conf Mail: "
+msgstr "נשלח עם Zero Conf Mail: "
+
+#. #-#-#-#-#  zero-conf-mail.pot (Zero Conf Mail 0.4.0.1)  #-#-#-#-#
+#. Plugin URI of an extension
+#: inc/page.php:55
+msgid "http://www.nkuttler.de/wordpress/zero-conf-mail/"
+msgstr "http://www.nkuttler.de/wordpress/zero-conf-mail/"
+
+#: inc/page.php:56
+msgid "Blog: "
+msgstr "בלוג:"
+
+#: inc/page.php:58
+msgid "IP  : "
+msgstr "IP  : "
+
+#: inc/page.php:72
+msgid "No message could be sent. This means that this server wasn't configured to send mail. Please contact the site administrator."
+msgstr "לא נשלחה שום הודעה. זה אומר שהשרת לא מוגדר לשליחת דואר אלקטרוני. אנא פנה למנהל השרת שלך."
+
+#: inc/page.php:454
+msgid "http://www.nkuttler.de/wordpress/zero-conf-mail"
+msgstr "http://www.nkuttler.de/wordpress/zero-conf-mail"
+
+#: inc/page.php:456
+#, php-format
+msgid "<a href=\"%s\">Mail form</a> powered by <a href=\"%s\">Zero Conf Mail</a>"
+msgstr "<a href=\"%s\">טופס דואר אלקטרוני</a> באדיבות <a href=\"%s\">Zero Conf Mail</a>"
+
+#. Description of an extension
+msgid "Mail form that doesn't need any configuration."
+msgstr "טופס הדואר האלקטרוני לא צריך שום הגדרות תצורה"
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr "ניקולס קוטלר"
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr "http://www.nkuttler.de/"
+
+#. Select box
+msgid "email"
+msgstr "דואר אלקטרוני"
+
+#. Select box
+msgid "Enabled"
+msgstr "הפעל"
+
+#. Select box
+msgid "Disabled"
+msgstr "נטרל"
+
+#. Select box
+msgid "In the footer"
+msgstr "בכותרת התחתונה"
+
+#. Select box
+msgid "Below the form"
+msgstr "מתחת לטופס"
+
+#. Select box
+msgid "Nowhere"
+msgstr "בשום מקום"
+
+#. Select box
+msgid "textarea"
+msgstr "אזור טקסט"
+
+#. Select box
+msgid "text"
+msgstr "טקסט"
+
+#. Select box
+msgid "submit"
+msgstr "בצע"
+
+#~ msgid "Configuration"
+#~ msgstr "הגדרות תצורה"
+#~ msgid "CSS suggestion"
+#~ msgstr "הצעת CSS"
+#~ msgid ""
+#~ "Here is a possible CSS configuration. Add it to your theme's <tt>style."
+#~ "css</tt> if you like"
+#~ msgstr ""
+#~ "כאן תראה הצעת תצורת CSS. תוכל להוסיף אותה לקובץ <tt>style.css</tt> בתבנית "
+#~ "שלך, כרצונך."
+

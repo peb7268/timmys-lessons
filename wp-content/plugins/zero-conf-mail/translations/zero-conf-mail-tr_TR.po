@@ -1,0 +1,310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zero conf 0.3.3.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tayfun Duran <tayfunduran@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. #-#-#-#-#  foo.pot (Zero Conf Mail 0.3.3.1)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:7
+#: inc/admin.php:293
+msgid "Zero Conf Mail"
+msgstr "Zero Conf Mail"
+
+#: inc/admin.php:114
+msgid "Your new field"
+msgstr "Yeni alanınız"
+
+#: inc/admin.php:123
+msgid "Your name"
+msgstr "İsminiz"
+
+#: inc/admin.php:129
+msgid "Your email"
+msgstr "e-postanız"
+
+#: inc/admin.php:135
+msgid "Subject"
+msgstr "Konu"
+
+#: inc/admin.php:141
+msgid "Your message"
+msgstr "Mesajınız"
+
+#: inc/admin.php:147
+msgid "Send message"
+msgstr "Mesajı Gönder"
+
+#: inc/admin.php:163
+msgid "Please fill out all fields!"
+msgstr "Lütfen tüm alanları doldurunuz"
+
+#: inc/admin.php:164
+msgid "Your message has been sent. Thank you!"
+msgstr "Mesajınız gönderildi. Teşekkürler!"
+
+#: inc/admin.php:250
+msgid "Fields saved"
+msgstr "Alanlar kaydedildi"
+
+#: inc/admin.php:277
+msgid "Settings saved"
+msgstr "Ayarlar kaydedildi"
+
+#: inc/admin.php:282
+msgid "The default configuration was restored"
+msgstr "Varsayılan ayarlara dönüldü"
+
+#: inc/admin.php:289
+msgid "Field added"
+msgstr "Alan eklendi"
+
+#: inc/admin.php:296
+msgid "I'm sure I am reinventing the wheel with this plugin. However, sometimes it's faster to simply write something yourself than it is to find something that does what you want. This plugin uses no Ajax, no bloated libraries. And it doesn't need to be configured at all."
+msgstr "Bu eklenti ile tekerleği yeniden keşfettiğime eminim. Yine de bazen istediğiniz şeyi bulmaktansa, onu basitçe yazmak daha kolay oluyor. Bu eklenti Ajax, şişkin kütüphaler, dış dosyalar kullanmıyor ve o kadar ayarlama yapmaya da gerek duymuyor."
+
+#: inc/admin.php:297
+msgid "Simply include it on any page or post by putting <tt>[zcmail]</tt> into the page content."
+msgstr "Herhangi bir sayfa yada yazı içeriğine basitçe <tt>[zcmail]</tt> yerleştirerek formu ekleyebilirsiniz."
+
+#: inc/admin.php:299
+msgid "Your email form"
+msgstr "e-posta formunuz"
+
+#: inc/admin.php:300
+msgid "This is a preview of your email form:"
+msgstr "e-posta formunuzun görüntüsü"
+
+#: inc/admin.php:306
+msgid "It looks like the configured email isn't valid, please check the advanced configuration!"
+msgstr "Ayarlanmış eposta geçerli gözükmüyor. Lütfen gelişmiş ayarları kontrol edin!"
+
+#: inc/admin.php:309
+#, php-format
+msgid "The mails are being sent to <strong>%s</strong>."
+msgstr "e-postalar <strong>%s</strong> adresine gönderiliyorlar."
+
+#: inc/admin.php:312
+msgid "Customize the form"
+msgstr "Formu değiştir"
+
+#: inc/admin.php:323
+msgid "Do you want to see the customization options?"
+msgstr "Değiştirme ayarlarını görmek istiyor musunuz?"
+
+#: inc/admin.php:336
+msgid "Include the recommended CSS styles?"
+msgstr "Varsayılan CSS stillerini içersin mi (önerilir)?"
+
+#: inc/admin.php:347
+msgid "Who receives the emails"
+msgstr "e-postaları kim alacak"
+
+#: inc/admin.php:358
+msgid "Message when the form wasn't completed"
+msgstr "Tamamlanmamış form mesajı"
+
+#: inc/admin.php:369
+msgid "Message when the mail was sent"
+msgstr "Mesaj gönderildi mesajı"
+
+#: inc/admin.php:380
+msgid "Flood protection"
+msgstr "Taşkın koruması (flood protection)"
+
+#: inc/admin.php:384
+#, php-format
+msgid "Allow a maximum of %s emails being sent per IP per %s hours."
+msgstr "Bir IP adresinden en fazla %s e-postanın %s saat içinde gönderilmesine izin veriliyor."
+
+#: inc/admin.php:395
+msgid "Where to put the home link"
+msgstr "Ana sayfa linkinin yerleştirileceği yer"
+
+#: inc/admin.php:407
+#: inc/admin.php:432
+#: inc/admin.php:435
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: inc/admin.php:412
+msgid "Input fields configuration"
+msgstr "Giriş alanları ayarları"
+
+#: inc/admin.php:427
+msgid "Add a pinch of JavaScript?"
+msgstr "Bir tutam JavaScript ekle?"
+
+#: inc/admin.php:429
+msgid "I recommend that you enable this. It will just add a few characters to the HTML source of the contact form. It doesn't depend on any external JavaScript."
+msgstr "Bunu etkinleştirmenizi öneririm. İletişim formunun HTML koduna bir kaç karakter ekleyecektir. Herhangi bir dış Java Script'e bağlı değildir."
+
+#: inc/admin.php:439
+msgid "Add a custom field"
+msgstr "Alan ekle"
+
+#: inc/admin.php:448
+msgid "Add Field"
+msgstr "Alanı ekle"
+
+#: inc/admin.php:453
+#: inc/admin.php:459
+msgid "Reset the plugin"
+msgstr "Eklentiyi sıfırla"
+
+#: inc/admin.php:454
+msgid "<strong>Careful!</strong> This will delete any customizations you have made and will also translate the form into your language if possible."
+msgstr "<strong>Dikkat!</strong> Bu işlem yaptığınız tüm değişiklikleri silecektir, ve ayrıca mümkünse formu dilinize çevirecektir."
+
+#: inc/admin.php:502
+msgid "Label"
+msgstr "Etiket"
+
+#: inc/admin.php:504
+msgid "Type"
+msgstr "Tip"
+
+#: inc/admin.php:505
+msgid "Mandatory (y/n)?"
+msgstr "Zorunlu (e/h)?"
+
+#: inc/admin.php:506
+msgid "Position"
+msgstr "Yeri"
+
+#: inc/nkuttler.php:24
+msgid "Do you like this plugin?"
+msgstr "Bu eklentiyi beğendiniz mi?"
+
+#: inc/nkuttler.php:32
+#, php-format
+msgid "<a href=\"%s\">Vote</a> for it"
+msgstr "<a href=\"%s\">Oy verin</a>"
+
+#: inc/nkuttler.php:35
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Ana sayfasına gidin</a>"
+
+#: inc/nkuttler.php:38
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "Beslemeye <a href=\"%s\">abune olun</a>"
+
+#: inc/nkuttler.php:41
+msgid "About the author"
+msgstr "Yazar hakkında"
+
+#: inc/nkuttler.php:44
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "<a href=\"%s\">Blogum</a>"
+
+#: inc/nkuttler.php:47
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr "<a href=\"%s\">RSS</a> yada <a href=\"%s\">e-posta</a> ile"
+
+#: inc/nkuttler.php:51
+msgid "My other plugins"
+msgstr "Diğer eklentilerim"
+
+#: inc/page.php:14
+msgid "Temporarily closed"
+msgstr "Geçici olarak kapalı"
+
+#: inc/page.php:54
+msgid "Sent with Zero Conf Mail: "
+msgstr "Zero Conf Mail ile Gönder:"
+
+#. #-#-#-#-#  foo.pot (Zero Conf Mail 0.3.3.1)  #-#-#-#-#
+#. Plugin URI of an extension
+#: inc/page.php:55
+msgid "http://www.nkuttler.de/wordpress/zero-conf-mail/"
+msgstr "http://www.nkuttler.de/wordpress/zero-conf-mail/"
+
+#: inc/page.php:56
+msgid "Blog: "
+msgstr "Blog"
+
+#: inc/page.php:58
+msgid "IP  : "
+msgstr "IP :"
+
+#: inc/page.php:72
+msgid "No message could be sent. This means that this server wasn't configured to send mail. Please contact the site administrator."
+msgstr "Hiç mesaj gönderilmedi. Bu, bu sunucunun e-posta göndermek için ayarlanmadığı anlamına geliyor. Lütfen site yöneticinize başvurunuz."
+
+#: inc/page.php:450
+msgid "http://www.nkuttler.de/wordpress/zero-conf-mail"
+msgstr "http://www.nkuttler.de/wordpress/zero-conf-mail"
+
+#: inc/page.php:452
+#, php-format
+msgid "<a href=\"%s\">Mail form</a> powered by <a href=\"%s\">Zero Conf Mail</a>"
+msgstr "<a href=\"%s\">İletişim formu</a>, <a href=\"%s\">Zero Conf Mail</a> ile desteklenmiştir."
+
+#. Description of an extension
+msgid "Mail form that doesn't need any configuration."
+msgstr "Hiç ayarlama gerektirmeyen iletişim formu."
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr "Nicolas Kuttler"
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr "http://www.nkuttler.de/"
+
+#. Select box
+msgid "email"
+msgstr "e-posta"
+
+#. Select box
+msgid "Enabled"
+msgstr "Aktif"
+
+#. Select box
+msgid "Disabled"
+msgstr "Pasif"
+
+#. Select box
+msgid "In the footer"
+msgstr "Sayfa altı (footer)"
+
+#. Select box
+msgid "Below the form"
+msgstr "Formun altı"
+
+#. Select box
+msgid "Nowhere"
+msgstr "Hiçbir yer"
+
+#. Select box
+msgid "textarea"
+msgstr "textarea"
+
+#. Select box
+msgid "text"
+msgstr "text"
+
+#. Select box
+msgid "submit"
+msgstr "submit"
+
+#~ msgid "Configuration"
+#~ msgstr "Ayarlar"
+#~ msgid "CSS suggestion"
+#~ msgstr "CSS önerisi"
+#~ msgid ""
+#~ "Here is a possible CSS configuration. Add it to your theme's <tt>style."
+#~ "css</tt> if you like"
+#~ msgstr ""
+#~ "İşte olası bir CSS. Eğer beğenirseniz temanızın <tt>style.css</tt> içine "
+#~ "ekleyin"
+

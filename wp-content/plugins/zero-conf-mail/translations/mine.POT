@@ -1,0 +1,35 @@
+#. Select box
+msgid "email"
+msgstr ""
+
+#. Select box
+msgid "Enabled"
+msgstr ""
+
+#. Select box
+msgid "Disabled"
+msgstr ""
+
+#. Select box
+msgid "In the footer"
+msgstr ""
+
+#. Select box
+msgid "Below the form"
+msgstr ""
+
+#. Select box
+msgid "Nowhere"
+msgstr ""
+
+#. Select box
+msgid "textarea"
+msgstr ""
+
+#. Select box
+msgid "text"
+msgstr ""
+
+#. Select box
+msgid "submit"
+msgstr ""

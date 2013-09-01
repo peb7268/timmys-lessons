@@ -1,0 +1,371 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.2.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/zero-conf-mail\n"
+"POT-Creation-Date: 2010-01-16 21:13+0100\n"
+"PO-Revision-Date: 2009-10-11 15:10+0200\n"
+"Last-Translator: Nicolas Kuttler <wp@nicolaskuttler.de>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. #-#-#-#-#  zero-conf-mail.pot (Zero Conf Mail 0.5.0.2)  #-#-#-#-#
+#. Plugin Name of an extension
+#: inc/admin.php:7 inc/admin.php:312
+msgid "Zero Conf Mail"
+msgstr ""
+
+#: inc/admin.php:116
+msgid "Your new field"
+msgstr "Eine neues Feld"
+
+#: inc/admin.php:125
+msgid "Your name"
+msgstr "Ihr Name"
+
+#: inc/admin.php:131
+msgid "Your email"
+msgstr "Ihre E-Mail"
+
+#: inc/admin.php:137
+msgid "Subject"
+msgstr "Betreff"
+
+#: inc/admin.php:143
+msgid "Your message"
+msgstr "Ihre Nachricht"
+
+#: inc/admin.php:149
+msgid "Send message"
+msgstr "Nachricht abschicken"
+
+#: inc/admin.php:166
+msgid "Please fill out all fields!"
+msgstr "Bitte füllen Sie alle Felder aus!"
+
+#: inc/admin.php:167
+msgid "Your message has been sent. Thank you!"
+msgstr "Ihre Nachricht wurde verschickt, herzlichen Dank!"
+
+#: inc/admin.php:251
+msgid "Fields saved"
+msgstr "Felder gespeichert"
+
+#: inc/admin.php:278
+msgid "Settings saved"
+msgstr "Konfiguration gespeichert"
+
+#: inc/admin.php:283
+msgid "The default configuration was restored"
+msgstr "Die Standardkonfiguration wurde wieder hergestellt"
+
+#: inc/admin.php:290
+msgid "Field added"
+msgstr "Feld hinzu gefügt"
+
+#: inc/admin.php:299
+#, php-format
+msgid "Field with position %s deleted"
+msgstr "Das Feld mit der Position %s wurde gelöscht"
+
+#: inc/admin.php:302
+msgid "Can not delete this field"
+msgstr "Ich kann dieses Feld nicht löschen"
+
+#: inc/admin.php:315
+msgid ""
+"I'm sure I am reinventing the wheel with this plugin. However, sometimes "
+"it's faster to simply write something yourself than it is to find something "
+"that does what you want. This plugin uses no Ajax, no bloated libraries. And "
+"it doesn't need to be configured at all."
+msgstr ""
+"Ich bin mir ziemlich sicher dass ich hier quasi das Rad neu erfinde. Aber "
+"manchmal ist es einfach schneller etwas neu zu schaffen, als etwas "
+"bestehendes zu verändern. Dieses Plugin verwendet kein AJAX, keine "
+"aufgeblähten libraries. Und man muss es überhaupt nicht konfigurieren."
+
+#: inc/admin.php:316
+msgid ""
+"Simply include it on any page or post by putting <tt>[zcmail]</tt> into the "
+"page content."
+msgstr ""
+"Einfach auf irgend einer Seite oder einem post mit dem shortcode <tt>[zcmail]"
+"</tt> einfügen"
+
+#: inc/admin.php:318
+msgid "Your email form"
+msgstr "Ihr E-Mail Formular"
+
+#: inc/admin.php:319
+msgid "This is a preview of your email form:"
+msgstr "Dies ist eine Vorschau Ihres E-Mail Formulars:"
+
+#: inc/admin.php:325
+msgid ""
+"It looks like the configured email isn't valid, please check the advanced "
+"configuration!"
+msgstr ""
+"Es sieht so aus als ob die konfigurierte E-Mail Adresse nicht gültig ist, "
+"schauen Sie bitte in der fortgeschrittenen Konfiguration nach!"
+
+#: inc/admin.php:328
+#, php-format
+msgid "The mails are being sent to <strong>%s</strong>."
+msgstr "Die E-Mails werden an <strong>%s</strong> verschickt."
+
+#: inc/admin.php:331
+msgid "Customize the form"
+msgstr "Das Formular anpassen"
+
+#: inc/admin.php:342
+msgid "Do you want to see the customization options?"
+msgstr "Möchten Sie die Optionen zum Anpassen sehen?"
+
+#: inc/admin.php:355
+msgid "Include the recommended CSS styles?"
+msgstr "Die empfohlenen CSS Stile einbinden?"
+
+#: inc/admin.php:366
+msgid "Who receives the emails"
+msgstr "An wen die E-Mails gehen"
+
+#: inc/admin.php:377
+msgid "Message when the form wasn't completed"
+msgstr "Nachricht wenn das Formular nicht richtig ausgefüllt wurde"
+
+#: inc/admin.php:388
+msgid "Message when the mail was sent"
+msgstr "Nachricht wenn die E-Mail verschickt wurde"
+
+#: inc/admin.php:399
+msgid "Flood protection"
+msgstr "Flood Schutz"
+
+#: inc/admin.php:403
+#, php-format
+msgid "Allow a maximum of %s emails being sent per IP per %s hours."
+msgstr "Erlaube höchstens %s E-Mails per IP und pro %s Stunden."
+
+#: inc/admin.php:414
+msgid "Where to put the home link"
+msgstr "Wo soll der Verweis zur plugin Seite hin?"
+
+#: inc/admin.php:426 inc/admin.php:451 inc/admin.php:454
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: inc/admin.php:431
+msgid "Input fields configuration"
+msgstr "Konfiguration der Eingabefelder"
+
+#: inc/admin.php:446
+msgid "Add a pinch of JavaScript?"
+msgstr "Eine Prise JavaScript hinzufügen"
+
+#: inc/admin.php:448
+msgid ""
+"I recommend that you enable this. It will just add a few characters to the "
+"HTML source of the contact form. It doesn't depend on any external "
+"JavaScript."
+msgstr ""
+"Ich empfehle dies zu aktivieren. Es fügt nur ein paar JavaScript Befehle "
+"direkt in den HTML-Code ein. Es werden keine externen Dateien geladen."
+
+#: inc/admin.php:458
+msgid "Add a custom field"
+msgstr "Ein neues Feld hinzu fügen"
+
+#: inc/admin.php:467
+msgid "Add Field"
+msgstr "Feld hinzu fügen"
+
+#: inc/admin.php:471
+msgid "Delete a field"
+msgstr "Ein Feld löschen"
+
+#: inc/admin.php:473
+msgid "Please enter the position of the field to delete."
+msgstr "Bitte geben Sie die Position des zu löschenden Feldes ein."
+
+#: inc/admin.php:479 inc/admin.php:540
+msgid "Position"
+msgstr "Position"
+
+#: inc/admin.php:482
+msgid "Delete Field"
+msgstr "Feld löschen"
+
+#: inc/admin.php:487 inc/admin.php:493
+msgid "Reset the plugin"
+msgstr "Das plugin zurücksetzen"
+
+#: inc/admin.php:488
+msgid ""
+"<strong>Careful!</strong> This will delete any customizations you have made "
+"and will also translate the form into your language if possible."
+msgstr ""
+"<strong>Vorsicht!</strong> Dies wird alle Werte die Sie verändert haben "
+"zurücksetzen und falls möglich das Formular übersetzen."
+
+#: inc/admin.php:536
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: inc/admin.php:538
+msgid "Type"
+msgstr "Art"
+
+#: inc/admin.php:539
+msgid "Mandatory (y/n)?"
+msgstr "Notwendig (j/n)?"
+
+#: inc/nkuttler.php:25
+msgid "Do you like this plugin?"
+msgstr "Gefällt Ihnen dieses plugin?"
+
+#: inc/nkuttler.php:33
+msgid "<a href=\"%s\">Rate</a> it"
+msgstr "<a href=\"%s\">Bewerten</a> Sie es"
+
+#: inc/nkuttler.php:36
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Besuchen</a> Sie seine Webseite"
+
+#: inc/nkuttler.php:39
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Abonnieren</a> Sie den feed"
+
+#: inc/nkuttler.php:42
+msgid "<a href=\"%s\">Donate</a>!"
+msgstr "<a href=\"%s\">Spenden</a> Sie!"
+
+#: inc/nkuttler.php:45
+msgid "About the author"
+msgstr "Über den Autor"
+
+#: inc/nkuttler.php:48
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Mein <a href=\"%s\">Blog</a>"
+
+#: inc/nkuttler.php:51
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr ""
+"Abonnieren Sie den <a href=\"%s\">RSS feed</a> (als <a href=\"%s\">E-Mail</"
+"a>)"
+
+#: inc/nkuttler.php:55
+msgid "My other plugins"
+msgstr "Meine anderen plugins"
+
+#: inc/nkuttler.php:56
+msgid "<a href=\"http://www.nkuttler.de\">Translated by Nicolas</a>"
+msgstr "<a href=\"http://www.nicolaskuttler.de\">Übersetzt von Nicolas Kuttler</a>"
+
+#: inc/page.php:14
+msgid "Temporarily closed"
+msgstr "Vorübergehend geschlossen"
+
+#: inc/page.php:55
+msgid "Sent with Zero Conf Mail: "
+msgstr "Verschickt mit Zero Conf Mail: "
+
+#. #-#-#-#-#  zero-conf-mail.pot (Zero Conf Mail 0.5.0.2)  #-#-#-#-#
+#. Plugin URI of an extension
+#: inc/page.php:56
+msgid "http://www.nkuttler.de/wordpress/zero-conf-mail/"
+msgstr "http://www.nicolaskuttler.de/wordpress/zero-conf-mail/"
+
+#: inc/page.php:57
+msgid "Blog: "
+msgstr "Blog : "
+
+#: inc/page.php:59
+msgid "Page: "
+msgstr "Seite: "
+
+#: inc/page.php:61
+msgid "From: "
+msgstr "Von  : "
+
+#: inc/page.php:63
+msgid "IP  : "
+msgstr "IP   : "
+
+#: inc/page.php:77
+msgid ""
+"No message could be sent. This means that this server wasn't configured to "
+"send mail. Please contact the site administrator."
+msgstr ""
+"Es konnte keine E-Mail verschickt werden. Dies weist auf eine "
+"Fehlkonfiguration dieses servers hin. Bitte kontaktieren Sie den "
+"Administrator."
+
+#: inc/page.php:478
+msgid "http://www.nkuttler.de/wordpress/zero-conf-mail"
+msgstr "http://www.nicolaskuttler.de/wordpress/zero-conf-mail"
+
+#: inc/page.php:480
+#, php-format
+msgid ""
+"<a href=\"%s\">Mail form</a> powered by <a href=\"%s\">Zero Conf Mail</a>"
+msgstr ""
+"<a href=\"%s\">E-Mail Formular</a> mit Unterstützung von <a href=\"%s\">Zero "
+"Conf Mail</a>"
+
+#: zero-conf-mail.php:93
+msgid "Zero Conf Mail Widget"
+msgstr ""
+
+#. Description of an extension
+msgid "Mail form that doesn't need any configuration."
+msgstr "Mail Formular dass nicht konfiguriert werden muss."
+
+#. Author of an extension
+msgid "Nicolas Kuttler"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.nkuttler.de/"
+msgstr "http://www.nicolaskuttler.de/"
+
+#. Select box
+msgid "email"
+msgstr "E-Mail"
+
+#. Select box
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#. Select box
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#. Select box
+msgid "In the footer"
+msgstr "In die Fußzeile"
+
+#. Select box
+msgid "Below the form"
+msgstr "Unter das Formular"
+
+#. Select box
+msgid "Nowhere"
+msgstr "Nirgends"
+
+#. Select box
+msgid "textarea"
+msgstr "Textfeld"
+
+#. Select box
+msgid "text"
+msgstr "Text"
+
+#. Select box
+msgid "submit"
+msgstr "Verschicken"
