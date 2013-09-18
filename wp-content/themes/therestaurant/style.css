@@ -432,7 +432,7 @@ background-color:transparent;
 #container .wrapper {
 	display: inline-block;
 	text-align: left;	
-background-color:none;
+    background-color:#ffffff;
 
 
 }
@@ -462,6 +462,7 @@ background-color:none;
 #content-border, #widget-border {
 	border: #dedede 1px solid;
 	display: inline-block;
+
 }
 
 #content-border, #widget-border .home {
@@ -483,8 +484,10 @@ background-color:none;
 	padding: 0;
 }
 #content.home, #gallery #content {
-	padding-bottom: 0;
-	background:url(http://www.wingfactory.com/wp-content/uploads/2012/01/lowerBackground.gif); background-position:bottom;
+	/*padding-bottom: 0;
+	background:url(http://www.wingfactory.com/wp-content/uploads/2012/01/lowerBackground.gif); */
+	background-color: #cccccc;
+	background-repeat: repeat-y;
 	border:none;
 }
 .ie7 #content.home {
@@ -1671,8 +1674,16 @@ ul.sharing li.google a {
 .rf_latest_posts_widget .post-item {
 	display: inline-block;
 	position: relative;
-	width: 100%;
-	margin: 10px 0 0 0;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	border:1px solid #777777;
+	border-radius: 5px;
+	width: 95%;
+	margin: 5px 0 0 0;
+	background-color: #ffffff;
 }
 .rf_latest_posts_widget .post-item.first {
 	margin: 0;
