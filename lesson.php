@@ -5,7 +5,9 @@ foreach ($fruits as $fruit){
 	echo '<p>It\'s my favorite $fruit</p>';
 }
 */
-$fruits=array(	'apples' 	=> array('white', 'orange', 'red'),
+
+/* associative & multidimensional array
+$fruits = array(	'apples' 	=> array('white', 'orange', 'red'),
 				'oranges' 	=> 'pink',
 	 			'melons'	=> 'yellow',
 	 			'plums'		=> 'red'
@@ -24,3 +26,22 @@ foreach ($fruits as $key => $value) {
 
 	echo $s."</p>";
 }
+*/
+
+class Fruit {
+	public $type;
+	public $color;
+	public $name;
+
+	public function __construct($name, $type, $color){
+		$this->name 	= $name;
+		$this->type 	= $type;
+		$this->color 	= $color;
+
+		echo "Im a $type $name with a $color color <br>";
+	}
+}
+
+$orange = new Fruit('Orange', 'citrus fruit', 'yellow');
+
+echo "The color of the orange is: ". $orange->color;
