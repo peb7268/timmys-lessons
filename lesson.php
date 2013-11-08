@@ -27,21 +27,52 @@ foreach ($fruits as $key => $value) {
 	echo $s."</p>";
 }
 */
+// class Fruit {
+// 	public $type;
+// 	public $color;
+// 	public $name;
 
-class Fruit {
-	public $type;
+// 	public function __construct($name, $type, $color){
+// 		$this->name 	= $name;
+// 		$this->type 	= $type;
+// 		$this->color 	= $color;
+
+// 		echo "Im a $type $name with a $color color <br>";
+// 	}
+// }
+
+//$orange = new Fruit('Orange', 'citrus fruit', 'yellow');
+//echo "The color of the orange is: ". $orange->color;
+
+class Mammal {
+	public $legs;
 	public $color;
-	public $name;
+	public $type;
+	public static $lifeforce = 'blood';
 
-	public function __construct($name, $type, $color){
-		$this->name 	= $name;
-		$this->type 	= $type;
-		$this->color 	= $color;
+	public function __construct($color = 'gold', $type = 'Lion'){
+		$this->color = $color;
+		$this->type  = $type;
+	}
 
-		echo "Im a $type $name with a $color color <br>";
+	public function sayName(){
+		echo "I am a $this->type";
 	}
 }
 
-$orange = new Fruit('Orange', 'citrus fruit', 'yellow');
+class Lion extends Mammal {
+	private $behavior;
 
-echo "The color of the orange is: ". $orange->color;
+	public function __construct($behavior){
+		$this->behavior = $behavior;
+	}
+	public static function iHave(){
+		echo "I have ".Lion::$lifeforce;
+	}
+	public function whatDoIDo(){
+		echo "I ".$this->behavior;
+	}
+}
+
+$lion = new Lion('roar');
+echo $lion::iHave();
